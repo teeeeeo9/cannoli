@@ -1,66 +1,22 @@
-## Foundry
+## Cannoli Finance
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Cannoli Finance. Goes perfectly well with Espresso.
 
-Foundry consists of:
+Cannoli is a platform that makes LPs dreams about earning yield on a token as if they were providing it to the pools on all networks come true. In short, Cannoli multiplies capital efficiency.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+A sigle nitro rollup - the Liquidity hub - aceepts the liquidity, which earns yield on rollups connected to Espresso. Espresso serves as the source of confirmation that changes in liquidity occured on the Liquidity hub and confirmations of trades on connected rollups.
 
-## Documentation
+![Cannoli explainer](image.png)
 
-https://book.getfoundry.sh/
 
-## Usage
+#### Further work
+Cannoli works not only on DEX pools but any dapp that allows decentralized origination of pools. 
 
-### Build
 
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+#### Links
+Liquidity hub: arbitrum nitro rollup
+https://github.com/EspressoSystems/nitro-contracts.git
+Espresso caff node:
+https://github.com/EspressoSystems/espresso-build-something-real
+Howto: 
+https://docs.espressosys.com/network/guides/using-the-espresso-network/using-the-espresso-network-as-an-arbitrum-orbit-chain/running-the-espresso-network-with-arbitrum-cloud
