@@ -67,7 +67,7 @@ contract LiquidityManager is Ownable {
             amount
         );
 
-        userLpBalances[user][poolAddress] += liquidity;
+        userLpBalances[user][poolAddress] += liquidity; // storing user balances + owning LP tokens on behalf of the user
 
         emit LiquidityMinted(user, poolAddress, amount, liquidity);
 

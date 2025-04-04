@@ -78,7 +78,7 @@ contract DexPool is Ownable(msg.sender), IPool {
 
         _update(token0Balance, token1Balance); // Update reserves
 
-        // lpToken.mintTo(to, liquidity);
+        lpToken.mintTo(msg.sender, liquidity);
 
         return liquidity;
     }
@@ -94,7 +94,7 @@ contract DexPool is Ownable(msg.sender), IPool {
 
     //     uint256 reserve0In = reserve0;
     //     uint256 reserve1In = reserve1;
-    //     uint256 reserve0Out_ = amount0Out;
+    //     uint256 reserve0Out_ = amount0Out;   
     //     uint256 reserve1Out_ = amount1Out;
 
     //     uint256 amount0In = 0;
