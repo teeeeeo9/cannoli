@@ -1,0 +1,7 @@
+{
+    "LiqHubRpcUrl": "http://51.21.254.204:8550",
+    "Rollup1RpcUrl": "http://13.51.107.35:8547",
+    "LiqHub": "0x5fFe7271404Aa79CC5431552B58cA4c8B2741084",
+    "LiqManagerRollup1": "0x0B35e34e2184D93525b087680c47Bbd869650f80", 
+    "pollingInterval": 1
+  }
